@@ -1,7 +1,5 @@
 <?php
 
-use App\Livewire\Page\Page;
-use App\Livewire\Pages\ListUsers;
 use App\Livewire\Settings\Password;
 use App\Livewire\Settings\Profile;
 use App\Panel;

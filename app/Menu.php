@@ -13,12 +13,19 @@ class Menu
 
     public $subItems = [
         [
+            'label' => 'Filament',
+            'url' => '/admin',
+            'icon' => 'heart',
+            'badge' => 'null',
+            'badgeColor' => 'yellow',
+        ],
+        [
             'label' => 'Lala',
             'url' => 'https://google.com',
             'icon' => 'heart',
             'badge' => null,
             'badgeColor' => null,
-        ]
+        ],
     ];
 
     public static function make(Panel $panel): static
